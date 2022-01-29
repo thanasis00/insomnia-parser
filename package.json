@@ -1,0 +1,7 @@
+{
+  "name": "insomnia-parser",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Thanasis Katsadas <kathan@admin.grnet.gr>",
+  "license": "MIT"
+}
