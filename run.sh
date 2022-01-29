@@ -1,4 +1,4 @@
 #!/bin/bash
 
-source sendgrid.env
+source data/sendgrid.env
 node index.js
