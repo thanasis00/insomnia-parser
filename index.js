@@ -6,8 +6,9 @@ const url = process.env.URL;
 async function insomniaParser() {
   console.log("insomnia parser");
   const listings = await getListings(url);
-  console.log(listings);
+  console.log(`total listings: ${listings.length}`);
   const newListings = getNewListings(listings);
+  console.log(`total new listings: ${newListings.length}`);
   sendMail(newListings);
 }
 
